@@ -5,3 +5,4 @@ sleep 15
 lxc list
 lxc exec jancsi -- apt update --yes
 lxc exec jancsi -- apt upgrade --yes
+lxc exec jancsi -- apt install mc --yes
